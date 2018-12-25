@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/Persuhaan"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/menuHome"
+            android:checked="true"
+            android:title="HOME"/>
+
+        <item
+            android:id="@+id/menuVisiMisi"
+            android:title="VISI MISI"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/menuBagan"
+            android:title="BAGAN"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/menuPerwal"
+            android:title="PERWAL"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/menuPp"
+            android:title="PP DISTARU"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/menuRenstrat"
+            android:title="RENSTRA"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/menuTekno"
+            android:title="TEKNOPOLIS"
+            android:visible="false"/>
+
+    </group>
+</menu>
